@@ -1,0 +1,41 @@
+.modal{
+    background-color:rgb(8, 8, 8 , 0.2);
+    margin-top: -50%;
+    z-index: 3;
+    width: 100vw;
+    margin-left: -100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: fixed;
+    margin-top: 40%;
+    z-index: 5;
+    height: 800px;
+    width: 600px;
+    background-color: white !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 2%;
+}
+.card Img{
+    height: 100%;
+    padding: 2%;
+}
+.typography{
+    padding: 5%;
+}
+h2{
+    margin: 5px;
+}
+.buttons{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+    margin: 5px;
+}

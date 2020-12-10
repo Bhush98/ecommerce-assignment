@@ -1,0 +1,45 @@
+.app{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.search{
+    display: flex;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+.search input{
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 40%;
+    border: none !important;
+    width: 300px !important;
+}
+.search select{
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 200px;
+    height: 40%;
+    border: none !important;
+}
+.app-title{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.app-title Img {
+    height: 150px;
+    width: 150px;
+    margin-top: -3%;
+}
+.app-title h1{
+    padding-top: 20%;
+}
+.search button {
+    height: 40px;
+    width: 200px;
+    margin-top: 18%;
+}
+.search h1 button{
+    text-decoration: none !important;
+}

@@ -1,0 +1,30 @@
+.checkout-container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+label {
+    padding: 10%;
+    font-size: 1.5rem;
+}
+.user-info input{
+    margin: 5%;
+    margin-left: 15%;
+    height: 50px !important;
+    width: 300px !important;
+}
+.checkout{
+    width: 20% !important;
+}
+.prod-list{
+    margin-top: 5%;
+    height: 50vh;
+    width: 50vh;
+    overflow-y: scroll;
+}
+.item-card{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
